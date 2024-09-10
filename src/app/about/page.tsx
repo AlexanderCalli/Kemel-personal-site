@@ -9,12 +9,12 @@ export default function AboutPage() {
 
       <h2 className="text-2xl font-bold mb-4">WHO AM I</h2>
       <p className="mb-4">
-        I'm a Full Stack Developer in La Paz, Bolivia. I am learning TypeScript, Next.js, React.js, Node.js, and database management.
+        I&apos;m a Full Stack Developer in La Paz, Bolivia. I am learning TypeScript, Next.js, React.js, Node.js, and database management.
         Now, I have a passion for learning UI/UX.
       </p>
       <p className="mb-8">
-        I started learning web development on 2019. I am self-learning on YouTube. One of my favorite YouTube channels is [Your Favorite Channel], I
-        learned a lot of web development skills from him.
+        I started learning web development in 2019. I am self-learning on YouTube. One of my favorite YouTube channels is [Your Favorite Channel], I
+        learned a lot of web development skills from them.
       </p>
       <p className="mb-8">
         I love using Next.js to create a website. Then use GitHub to host my codebase. After that, I use Vercel to deploy my website.
@@ -34,8 +34,8 @@ export default function AboutPage() {
       </ul>
 
       <p className="mb-8">
-        Thanks to [Your Inspiration] for the [Inspiration Source]. It helped me when I haven't any idea how to create a blog from
-        scratch. My code isn't like the starter code because I changed a lot of code :)
+        Thanks to [Your Inspiration] for the [Inspiration Source]. It helped me when I didn&apos;t have any idea how to create a blog from
+        scratch. My code isn&apos;t like the starter code because I changed a lot of code :)
       </p>
 
       <h2 className="text-2xl font-bold mb-4">Inspiration</h2>
