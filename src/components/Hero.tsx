@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="flex items-start justify-between">
         <div className="space-y-4"> {/* Added space-y-4 for consistent vertical spacing */}
           <h1 className="text-3xl md:text-4xl font-bold">
-            I'm Kemel, a Full Stack Developer
+            I&apos;m Kemel, a Full Stack Developer
           </h1>
           <div className="text-3xl md:text-4xl font-bold flex items-start">
             creating{' '}

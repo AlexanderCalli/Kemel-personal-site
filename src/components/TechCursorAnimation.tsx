@@ -64,7 +64,7 @@ export default function TechCursorAnimation() {
           ))}
         </div>
         <p className="mt-8 text-center text-gray-600 dark:text-gray-400">
-          Feel free to reach out to me! I'm available for collaboration.
+          Feel free to reach out to me! I&apos;m available for collaboration.
         </p>
         <div className="mt-4 text-center">
           <Button
