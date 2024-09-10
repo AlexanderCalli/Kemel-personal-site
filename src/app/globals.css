@@ -105,10 +105,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 300px; /* Adjust as needed */
+  height: 100vh; /* Adjust as needed */
   background-image: url('/gradient-background-bottom.png');
   background-size: cover;
-  background-position: center;
+  background-position: bottom center;
   z-index: -1;
 }
 

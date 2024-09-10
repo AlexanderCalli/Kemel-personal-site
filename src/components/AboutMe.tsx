@@ -84,7 +84,7 @@ export default function AboutMe() {
           <div className="bg-white dark:bg-black/50 rounded-lg p-4 shadow-[0_0_10px_2px_rgba(0,0,0,0.1)] dark:shadow-[0_0_10px_2px_rgba(255,255,255,0.1)]">
             <div className="flex items-center mb-4">
               <MdLocationOn className="mr-2" />
-              <span>Hong Kong</span>
+              <span>La Paz, Bolivia</span>
             </div>
             <div className="w-full aspect-square">
               <Globe />
@@ -145,7 +145,7 @@ export default function AboutMe() {
               <IoTimeOutline className="mr-2" />
               Coding hours
             </h3>
-            <p className="text-3xl font-bold">3522 hrs</p>
+            <p className="text-3xl font-bold">2267 hrs</p>
           </div>
 
           {/* Favorite framework */}

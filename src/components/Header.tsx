@@ -99,7 +99,7 @@ export default function Header() {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 px-4 pt-6">
       <motion.header 
-        className="mx-auto max-w-[98%] bg-white/30 dark:bg-black/30 backdrop-blur-sm rounded-lg"
+        className="mx-auto max-w-[98%] bg-white/50 dark:bg-black/50 backdrop-blur-sm rounded-lg"
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5 }}
