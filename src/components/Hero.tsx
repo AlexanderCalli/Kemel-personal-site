@@ -55,7 +55,7 @@ export default function Hero() {
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
           <Image
-            src="/placeholder-avatar.png"
+            src="/kemel-image.png"
             alt="Kemel's Avatar"
             width={120}
             height={120}

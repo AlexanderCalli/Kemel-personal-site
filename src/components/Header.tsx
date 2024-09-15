@@ -45,9 +45,9 @@ import {
 import { SignInModal } from './SignInModal'
 
 const navItems = [
-  { name: 'Blog', path: '/blog' },
+//  { name: 'Blog', path: '/blog' },
   { name: 'Guestbook', path: '/guestbook' },
-  { name: 'Dashboard', path: '/dashboard' },
+//  { name: 'Dashboard', path: '/dashboard' },
   { name: 'Projects', path: '/projects' },
   { name: 'About', path: '/about' },
   { name: 'Uses', path: '/uses' },

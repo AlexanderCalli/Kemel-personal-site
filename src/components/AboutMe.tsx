@@ -22,7 +22,7 @@ const IconRow = ({ icons, direction }: { icons: any[], direction: 'left' | 'righ
             alt={icon.alt}
             width={48}
             height={48}
-            className="w-full h-full object-contain filter grayscale invert dark:invert-0"
+            className="w-full h-full object-contain dark:filter dark:grayscale dark:invert"
           />
         </div>
       ))}
@@ -35,7 +35,7 @@ const IconRow = ({ icons, direction }: { icons: any[], direction: 'left' | 'righ
             alt={icon.alt}
             width={48}
             height={48}
-            className="w-full h-full object-contain filter grayscale invert dark:invert-0"
+            className="w-full h-full object-contain dark:filter dark:grayscale dark:invert"
           />
         </div>
       ))}
@@ -49,30 +49,53 @@ export default function AboutMe() {
     { src: '/icons/TypeScript.png', alt: 'TypeScript' },
     { src: '/icons/React.png', alt: 'React' },
     { src: '/icons/Python.png', alt: 'Python' },
-    { src: '/icons/PostgreSQL.png', alt: 'PostgreSQL' },
+    { src: '/icons/Azure.png', alt: 'Azure' },
     { src: '/icons/HTML5.png', alt: 'HTML5' },
-    { src: '/icons/Next.png', alt: 'Next.js' },
-    { src: '/icons/Vue.png', alt: 'Vue.js' },
-    { src: '/icons/Angular.png', alt: 'Angular' },
-    { src: '/icons/Svelte.png', alt: 'Svelte' },
+    { src: '/icons/Next.js.png', alt: 'Next.js' },
+    { src: '/icons/Git.png', alt: 'Git' },
+    { src: '/icons/Haskell.png', alt: 'Haskell' },
+    { src: '/icons/Github.png', alt: 'Github' },
     { src: '/icons/Express.png', alt: 'Express' },
-    { src: '/icons/Django.png', alt: 'Django' },
-    {},
-  ];
-
-  const frameworkIcons = [
-    { src: '/icons/Next.png', alt: 'Next.js' },
-    { src: '/icons/Vue.png', alt: 'Vue.js' },
-    { src: '/icons/Angular.png', alt: 'Angular' },
-    { src: '/icons/Svelte.png', alt: 'Svelte' },
-    { src: '/icons/Express.png', alt: 'Express' },
-    { src: '/icons/Django.png', alt: 'Django' },
+    { src: '/icons/Java.png', alt: 'Java' },
     { src: '/icons/JavaScript.png', alt: 'JavaScript' },
     { src: '/icons/TypeScript.png', alt: 'TypeScript' },
     { src: '/icons/React.png', alt: 'React' },
     { src: '/icons/Python.png', alt: 'Python' },
-    { src: '/icons/PostgreSQL.png', alt: 'PostgreSQL' },
+    { src: '/icons/Azure.png', alt: 'Azure' },
     { src: '/icons/HTML5.png', alt: 'HTML5' },
+    { src: '/icons/Next.js.png', alt: 'Next.js' },
+    { src: '/icons/Git.png', alt: 'Git' },
+    { src: '/icons/Haskell.png', alt: 'Haskell' },
+    { src: '/icons/Github.png', alt: 'Github' },
+    { src: '/icons/Express.png', alt: 'Express' },
+    { src: '/icons/Java.png', alt: 'Java' },
+  ];
+
+  const frameworkIcons = [
+    { src: '/icons/Next.js.png', alt: 'Next.js' },
+    { src: '/icons/PostgresSQL.png', alt: 'PostgresSQL' },
+    { src: '/icons/Node.js.png', alt: 'Node.js' },
+    { src: '/icons/Scala.png', alt: 'Scala' },
+    { src: '/icons/Visual-Studio.png', alt: 'Visual Studio' },
+    { src: '/icons/Anaconda.png', alt: 'Anaconda' },
+    { src: '/icons/Cypress.png', alt: 'Cypress' },
+    { src: '/icons/Docker.png', alt: 'Docker' },
+    { src: '/icons/Selenium.png', alt: 'Selenium' },
+    { src: '/icons/Python.png', alt: 'Python' },
+    { src: '/icons/Tailwind-CSS.png', alt: 'Tailwind' },
+    { src: '/icons/HTML5.png', alt: 'HTML5' }, 
+    { src: '/icons/Next.js.png', alt: 'Next.js' },
+    { src: '/icons/PostgresSQL.png', alt: 'PostgresSQL' },
+    { src: '/icons/Node.js.png', alt: 'Node.js' },
+    { src: '/icons/Scala.png', alt: 'Scala' },
+    { src: '/icons/Visual-Studio.png', alt: 'Visual Studio' },
+    { src: '/icons/Anaconda.png', alt: 'Anaconda' },
+    { src: '/icons/Cypress.png', alt: 'Cypress' },
+    { src: '/icons/Docker.png', alt: 'Docker' },
+    { src: '/icons/Selenium.png', alt: 'Selenium' },
+    { src: '/icons/Python.png', alt: 'Python' },
+    { src: '/icons/Tailwind-CSS.png', alt: 'Tailwind' },
+    { src: '/icons/HTML5.png', alt: 'HTML5' }
   ];
 
   return (
@@ -154,8 +177,14 @@ export default function AboutMe() {
               <AiOutlineHeart className="mr-2" />
               Fav. framework
             </h3>
-            <div className="bg-black rounded-full w-16 h-16 flex items-center justify-center">
-              <span className="text-white text-2xl font-bold">N</span>
+            <div className="w-16 h-16 flex items-center justify-center">
+              <Image
+                src="/icons/Next.js.png"
+                alt="Next.js"
+                width={64}
+                height={64}
+                className="object-contain"
+              />
             </div>
           </div>
         </div>
