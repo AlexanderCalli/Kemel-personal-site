@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kemel's Personal Website
+
+This is a personal website for Kemel Alex Callisaya Humerez, an IT Engineer & QA Specialist. The site is built using Next.js and showcases Kemel's professional background, skills, and interests.
+
+## Technologies Used
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Supabase
+- Vercel (for deployment)
+- Shadcn UI
+
+## Features
+
+- Responsive design
+- Dark mode support
+- Interactive globe showing location
+- Animated tech stack display
+- Professional background and skills showcase
+- Uses page detailing equipment and software preferences
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
 
-```bash
+git clone https://github.com/your-username/kemel-personal-site.git
+cd kemel-personal-site
+
+Then, install the dependencies:
+
+npm install
+# or
+yarn install
+
+Run the development server:
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 with your browser to see the result. Website is currently deployed on Vercel. https://kemel-personal-site.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- src/app: Contains the main pages of the application
+- src/components: Reusable React components
+- public: Static assets like images and icons
+
+## Key Components
+
+- AboutMe: Displays personal information, location, and tech stacks
+- Hero: The landing page component with animated text
+- Uses: Shows the equipment and software used by Kemel
+
+## Deployment
+
+This project is set up for easy deployment on Vercel. Simply connect your GitHub repository to Vercel for automatic deployments on every push to the main branch.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the technologies used in this project, check out the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js Documentation: https://nextjs.org/docs
+- React Documentation: https://reactjs.org/docs/getting-started.html
+- Tailwind CSS Documentation: https://tailwindcss.com/docs
+- Supabase Documentation: https://supabase.io/docs
+- Vercel Documentation: https://vercel.com/docs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is open source and available under the MIT License.
