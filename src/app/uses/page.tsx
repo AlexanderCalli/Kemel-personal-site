@@ -86,7 +86,7 @@ export default function UsesPage() {
             { name: 'Next.js', image: '/icons/Next.js.png' },
             { name: 'Git', image: '/icons/Git.png' },
             { name: 'Haskell', image: '/icons/Haskell.png' },
-            { name: 'Github', image: '/icons/Github.png' },
+            { name: 'Github', image: '/icons/GitHub.png' },
             { name: 'Express', image: '/icons/Express.png' },
             { name: 'Java', image: '/icons/Java.png' },
             { name: 'PostgresSQL', image: '/icons/PostgresSQL.png' },

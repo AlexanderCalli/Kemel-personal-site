@@ -54,7 +54,7 @@ export default function AboutMe() {
     { src: '/icons/Next.js.png', alt: 'Next.js' },
     { src: '/icons/Git.png', alt: 'Git' },
     { src: '/icons/Haskell.png', alt: 'Haskell' },
-    { src: '/icons/Github.png', alt: 'Github' },
+    { src: '/icons/GitHub.png', alt: 'Github' },
     { src: '/icons/Express.png', alt: 'Express' },
     { src: '/icons/Java.png', alt: 'Java' },
     { src: '/icons/JavaScript.png', alt: 'JavaScript' },
@@ -66,7 +66,7 @@ export default function AboutMe() {
     { src: '/icons/Next.js.png', alt: 'Next.js' },
     { src: '/icons/Git.png', alt: 'Git' },
     { src: '/icons/Haskell.png', alt: 'Haskell' },
-    { src: '/icons/Github.png', alt: 'Github' },
+    { src: '/icons/GitHub.png', alt: 'Github' },
     { src: '/icons/Express.png', alt: 'Express' },
     { src: '/icons/Java.png', alt: 'Java' },
   ];
